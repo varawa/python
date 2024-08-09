@@ -8,7 +8,6 @@ print("*" * 10)     #multiplying "*" string with 10 .
 #Variables
 #---------
 
-
 price = 10      #Integers
 #when 10 is about to be stored in a memory its first converted to its binary form.
 
@@ -28,3 +27,11 @@ is_published = True #boolean
 name = "John Smith"
 age = 20 
 is_new = True
+
+
+#Receiving Input
+#---------------
+
+name = input("what is your name? ")
+likes = input("what game do you like ? ")
+print(name + " likes " + likes)
